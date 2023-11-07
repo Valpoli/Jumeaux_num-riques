@@ -27,10 +27,10 @@ extern "C" void app_main(void)
         while (true) {
             printf("LED ON\n");
             gpio.set_high();
-            this_thread::sleep_for(std::chrono::seconds(1));
+            this_thread::sleep_for(std::chrono::seconds(2));
             printf("LED OFF\n");
             gpio.set_low();
-            this_thread::sleep_for(std::chrono::seconds(1));
+            this_thread::sleep_for(std::chrono::seconds(2));
         }
     } catch (GPIOException &e) {
         printf("GPIO exception occurred: %s\n", esp_err_to_name(e.error));

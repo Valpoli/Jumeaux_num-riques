@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ssie/Documents/Jumeau/blink/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
-  include("/home/ssie/Documents/Jumeau/blink/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
-  include("/home/ssie/Documents/Jumeau/blink/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("/home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("/home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("/home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
 
 endif()
 

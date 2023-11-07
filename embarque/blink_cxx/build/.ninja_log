@@ -490,3 +490,4 @@
 18951	20083	1698937220055136662	blink_cxx.elf	53c58d5f0681bdf0
 20083	20219	1698937220195138341	.bin_timestamp	cee182ccd60dcddf
 20219	20245	0	esp-idf/esptool_py/CMakeFiles/app_check_size	e2a597ed8f388698
+0	426795165	0	CMakeFiles/confserver	334b4eee898ccd5d

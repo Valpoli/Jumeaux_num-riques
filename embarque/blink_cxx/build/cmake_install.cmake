@@ -1,4 +1,4 @@
-# Install script for directory: /home/ssie/Documents/Jumeau/blink_cxx
+# Install script for directory: /home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink_cxx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ssie/Documents/Jumeau/blink_cxx/build/esp-idf/cmake_install.cmake")
+  include("/home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink_cxx/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ssie/Documents/Jumeau/blink_cxx/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink_cxx/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

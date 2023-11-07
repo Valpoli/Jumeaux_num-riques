@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/ssie/Documents/Jumeau/blink/build/esp-idf/esp_system/port/cmake_install.cmake")
+  include("/home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink/build/esp-idf/esp_system/port/cmake_install.cmake")
 endif()
 

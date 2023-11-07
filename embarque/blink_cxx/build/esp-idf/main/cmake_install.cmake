@@ -1,4 +1,4 @@
-# Install script for directory: /home/ssie/Documents/Jumeau/blink_cxx/main
+# Install script for directory: /home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink_cxx/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

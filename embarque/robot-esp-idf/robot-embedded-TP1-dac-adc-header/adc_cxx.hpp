@@ -3,7 +3,13 @@
 #ifdef __cpp_exceptions
 
 // TODO header
+#include <functional>
+#include <optional>
 #include <utility>
+#include "driver/adc.h"
+#include "esp_err.h"
+#include "esp_exception.hpp"
+#include "driver/adc_oneshot.h"
 
 
 namespace idf {
@@ -96,6 +102,7 @@ private:
     AdcOneshot & operator=(const AdcOneshot &) = delete;
 
     // TODO private members
+    adc_oneshot_unit_handle_t handle;
 };
 
 } // idf

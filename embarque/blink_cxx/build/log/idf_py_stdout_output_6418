@@ -19,12 +19,12 @@
 -- Could not use 'git describe' to determine PROJECT_VER.
 -- Building ESP-IDF components for target esp32
 Dependencies lock doesn't exist, solving dependencies.
-...Updating lock file at /home/ssie/Documents/Jumeau/blink_cxx/dependencies.lock
+...Updating lock file at /home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink_cxx/dependencies.lock
 Processing 2 dependencies:
 [1/2] espressif/esp-idf-cxx (1.0.1-beta)
 [2/2] idf (5.1.1)
--- Project sdkconfig file /home/ssie/Documents/Jumeau/blink_cxx/sdkconfig
-Loading defaults file /home/ssie/Documents/Jumeau/blink_cxx/sdkconfig.defaults...
+-- Project sdkconfig file /home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink_cxx/sdkconfig
+Loading defaults file /home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink_cxx/sdkconfig.defaults...
 -- Looking for sys/types.h
 -- Looking for sys/types.h - found
 -- Looking for stdint.h
@@ -37,7 +37,7 @@ Loading defaults file /home/ssie/Documents/Jumeau/blink_cxx/sdkconfig.defaults..
 -- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
 -- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
 -- App "blink_cxx" version: 1
--- Adding linker script /home/ssie/Documents/Jumeau/blink_cxx/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink_cxx/build/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script /home/ssie/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
 -- Adding linker script /home/ssie/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
 -- Adding linker script /home/ssie/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
@@ -47,7 +47,7 @@ Loading defaults file /home/ssie/Documents/Jumeau/blink_cxx/sdkconfig.defaults..
 -- Adding linker script /home/ssie/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
 -- Adding linker script /home/ssie/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
 -- Components: app_update bootloader bootloader_support cxx driver efuse esp_app_format esp_common esp_event esp_hw_support esp_mm esp_partition esp_pm esp_ringbuf esp_rom esp_system esp_timer espressif__esp-idf-cxx esptool_py freertos hal heap log main mbedtls newlib partition_table pthread soc spi_flash xtensa
--- Component paths: /home/ssie/esp/esp-idf/components/app_update /home/ssie/esp/esp-idf/components/bootloader /home/ssie/esp/esp-idf/components/bootloader_support /home/ssie/esp/esp-idf/components/cxx /home/ssie/esp/esp-idf/components/driver /home/ssie/esp/esp-idf/components/efuse /home/ssie/esp/esp-idf/components/esp_app_format /home/ssie/esp/esp-idf/components/esp_common /home/ssie/esp/esp-idf/components/esp_event /home/ssie/esp/esp-idf/components/esp_hw_support /home/ssie/esp/esp-idf/components/esp_mm /home/ssie/esp/esp-idf/components/esp_partition /home/ssie/esp/esp-idf/components/esp_pm /home/ssie/esp/esp-idf/components/esp_ringbuf /home/ssie/esp/esp-idf/components/esp_rom /home/ssie/esp/esp-idf/components/esp_system /home/ssie/esp/esp-idf/components/esp_timer /home/ssie/Documents/Jumeau/blink_cxx/managed_components/espressif__esp-idf-cxx /home/ssie/esp/esp-idf/components/esptool_py /home/ssie/esp/esp-idf/components/freertos /home/ssie/esp/esp-idf/components/hal /home/ssie/esp/esp-idf/components/heap /home/ssie/esp/esp-idf/components/log /home/ssie/Documents/Jumeau/blink_cxx/main /home/ssie/esp/esp-idf/components/mbedtls /home/ssie/esp/esp-idf/components/newlib /home/ssie/esp/esp-idf/components/partition_table /home/ssie/esp/esp-idf/components/pthread /home/ssie/esp/esp-idf/components/soc /home/ssie/esp/esp-idf/components/spi_flash /home/ssie/esp/esp-idf/components/xtensa
+-- Component paths: /home/ssie/esp/esp-idf/components/app_update /home/ssie/esp/esp-idf/components/bootloader /home/ssie/esp/esp-idf/components/bootloader_support /home/ssie/esp/esp-idf/components/cxx /home/ssie/esp/esp-idf/components/driver /home/ssie/esp/esp-idf/components/efuse /home/ssie/esp/esp-idf/components/esp_app_format /home/ssie/esp/esp-idf/components/esp_common /home/ssie/esp/esp-idf/components/esp_event /home/ssie/esp/esp-idf/components/esp_hw_support /home/ssie/esp/esp-idf/components/esp_mm /home/ssie/esp/esp-idf/components/esp_partition /home/ssie/esp/esp-idf/components/esp_pm /home/ssie/esp/esp-idf/components/esp_ringbuf /home/ssie/esp/esp-idf/components/esp_rom /home/ssie/esp/esp-idf/components/esp_system /home/ssie/esp/esp-idf/components/esp_timer /home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink_cxx/managed_components/espressif__esp-idf-cxx /home/ssie/esp/esp-idf/components/esptool_py /home/ssie/esp/esp-idf/components/freertos /home/ssie/esp/esp-idf/components/hal /home/ssie/esp/esp-idf/components/heap /home/ssie/esp/esp-idf/components/log /home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink_cxx/main /home/ssie/esp/esp-idf/components/mbedtls /home/ssie/esp/esp-idf/components/newlib /home/ssie/esp/esp-idf/components/partition_table /home/ssie/esp/esp-idf/components/pthread /home/ssie/esp/esp-idf/components/soc /home/ssie/esp/esp-idf/components/spi_flash /home/ssie/esp/esp-idf/components/xtensa
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/ssie/Documents/Jumeau/blink_cxx/build
+-- Build files have been written to: /home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink_cxx/build

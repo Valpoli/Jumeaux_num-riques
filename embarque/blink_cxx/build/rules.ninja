@@ -681,7 +681,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake -S/home/ssie/Documents/Jumeau/blink_cxx -B/home/ssie/Documents/Jumeau/blink_cxx/build
+  command = /usr/bin/cmake -S/home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink_cxx -B/home/ssie/Documents/Jumeau/Jumeaux_num-riques/embarque/blink_cxx/build
   description = Re-running CMake...
   generator = 1
 

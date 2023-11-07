@@ -3,7 +3,12 @@
 #ifdef __cpp_exceptions
 
 // TODO header
-
+#include <functional>
+#include <optional>
+#include <utility>
+#include "driver/dac.h"
+#include "esp_exception.hpp" 
+#include "driver/dac_oneshot.h"
 
 namespace idf {
 
@@ -53,6 +58,7 @@ private:
     DacOneshot & operator=(const DacOneshot &) = delete;
 
     // TODO private members
+    dac_oneshot_unit_handle_t handle;
 };
 
 } // idf
