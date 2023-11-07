@@ -1,0 +1,16 @@
+dependencies:
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.1.1
+  jgraulle/esp-idf-cxx:
+    component_hash: 6bcbd70a913bc6f2f3774299ddcd4321ebbf2dfea74615f71a41f06e07cf72fc
+    source:
+      git: git@gitlab.cri.epita.fr:jeremie.graulle/esp-idf-cxx.git
+      path: .
+      type: git
+    version: 18b8ec4288a378838a0600c427b3551fca7f6006
+manifest_hash: 0c03ffcedc22a188adb667d37ef5183b87d7c79cbdae6ade88dd4a4da5a3fccd
+target: esp32
+version: 1.0.0

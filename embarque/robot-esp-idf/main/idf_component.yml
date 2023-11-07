@@ -1,0 +1,5 @@
+dependencies:
+  jgraulle/esp-idf-cxx: 
+    git : git@gitlab.cri.epita.fr:jeremie.graulle/esp-idf-cxx.git
+  idf:
+    version: '>=5.0'
